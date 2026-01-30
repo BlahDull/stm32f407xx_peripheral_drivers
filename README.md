@@ -2,7 +2,7 @@
 
 Project implementing bare metal drivers for peripheral control for STM32407xx family. Written entirely in C with direct register manipulation and without the use of a HAL. Offers several APIs to allow user defined programs to utilize the drivers inside the application layer for their own programs.
 
-**Drivers Implemented:**
+# Drivers Implemented
 
 LCD1602A - Drivers for initializing and controlling a LCD1602A display. Allows the user to print characters to the screen, control where the cursor is, blinking cursors, auto increment the cursor pointer, etc.
 
@@ -29,3 +29,4 @@ The MPU6500 in interrupt mode can send so many interrupts that the MCU will get 
 
 
 # ***TODO***
+
